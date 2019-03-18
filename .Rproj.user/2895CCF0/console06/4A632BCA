@@ -1,0 +1,64 @@
+[KMU00151931X:inoutrab jrab0004$ git remot add origin hhtpsL/[K[K[K[K[K[Kttps:githu.[Kb.com/rabsjo/[K[Kp/inoutpaper.git
+git: 'remot' is not a git command. See 'git --help'.
+
+The most similar command is
+	remote
+]0;~/Desktop/jotarepos/inoutrabMU00151931X:inoutrab jrab0004$ git remot add origin https:github.com/rabsjp/inoutpaper.git;outpaper.git9outpaper.gitDoutpaper.git;outpaper.git9outpaper.gitDoutpaper.git\outpaper.git[1Poutpaper.git[1Poutpaper.git[1Poutpaper.git[1Poutpaper.git[1Poutpaper.git[1Poutpaper.git[1Poutpaper.git[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1@e
+]0;~/Desktop/jotarepos/inoutrabMU00151931X:inoutrab jrab0004$ gis[Kt push -u origin master
+error: src refspec master does not match any.
+error: failed to push some refs to 'https:github.com/rabsjp/inoutpaper.git'
+]0;~/Desktop/jotarepos/inoutrabMU00151931X:inoutrab jrab0004$ git init . 
+Reinitialized existing Git repository in /Users/jrab0004/Desktop/jotarepos/inoutrab/.git/
+]0;~/Desktop/jotarepos/inoutrabMU00151931X:inoutrab jrab0004$ git init . push -u origin masterremote add origin https:github.com/rabsjp/inoutpaper.git/github.com/rabsjp/inoutpaper.git/github.com/rabsjp/inoutpaper.git
+fatal: remote origin already exists.
+]0;~/Desktop/jotarepos/inoutrabMU00151931X:inoutrab jrab0004$ git remote rm origin
+]0;~/Desktop/jotarepos/inoutrabMU00151931X:inoutrab jrab0004$ git remote rm originadd origin https://github.com/rabsjp/inoutpaper.git
+]0;~/Desktop/jotarepos/inoutrabMU00151931X:inoutrab jrab0004$ git remote add origin https://github.com/rabsjp/inoutpaper.git[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Crm origin[Kadd origin https://github.com/rabsjp/inoutpaper.git[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cinit . [Kpush -u origin master
+error: src refspec master does not match any.
+error: failed to push some refs to 'https://github.com/rabsjp/inoutpaper.git'
+]0;~/Desktop/jotarepos/inoutrabMU00151931X:inoutrab jrab0004$ [KMU00151931X:inoutrab jrab0004$ gig[Kt config --global user.name "rabsjo[KP[Kl[Kp"
+]0;~/Desktop/jotarepos/inoutrabMU00151931X:inoutrab jrab0004$ git config --global user.email "jeanpaulrab@gmail.com"
+]0;~/Desktop/jotarepos/inoutrabMU00151931X:inoutrab jrab0004$ git config --global user.email "jeanpaulrab@gmail.com"[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Kgit config --global user.email "jeanpaulrab@gmail.com"[16Pname "rabsjp"[13Ppush -u origin master
+error: src refspec master does not match any.
+error: failed to push some refs to 'https://github.com/rabsjp/inoutpaper.git'
+]0;~/Desktop/jotarepos/inoutrabMU00151931X:inoutrab jrab0004$ git push -u origin masterconfig --global user.email "jeanpaulrab@gmail.com"[16Pname "rabsjp"[13Ppush -u origin masterremote add origin https://github.com/rabsjp/inoutpaper.git
+fatal: remote origin already exists.
+]0;~/Desktop/jotarepos/inoutrabMU00151931X:inoutrab jrab0004$ git remote add origin https://github.com/rabsjp/inoutpaper.git[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[37Ppush -u origin masterconfig --global user.email "jeanpaulrab@gmail.com"[16Pname "rabsjp"[13Ppush -u origin masterremote add origin https://github.com/rabsjp/inoutpaper.git[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Crm origin[K
+]0;~/Desktop/jotarepos/inoutrabMU00151931X:inoutrab jrab0004$ git remote rm originadd origin https://github.com/rabsjp/inoutpaper.git[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[37Ppush -u origin masterconfig --global user.email "jeanpaulrab@gmail.com"[16Pname "rabsjp"[13Ppush -u origin masterremote add origin https://github.com/rabsjp/inoutpaper.git
+]0;~/Desktop/jotarepos/inoutrabMU00151931X:inoutrab jrab0004$ git remote add origin https://github.com/rabsjp/inoutpaper.git[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Crm origin[Kadd origin https://github.com/rabsjp/inoutpaper.git[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[37Ppush -u origin master
+error: src refspec master does not match any.
+error: failed to push some refs to 'https://github.com/rabsjp/inoutpaper.git'
+]0;~/Desktop/jotarepos/inoutrabMU00151931X:inoutrab jrab0004$ git push -u origin master
+error: src refspec master does not match any.
+error: failed to push some refs to 'https://github.com/rabsjp/inoutpaper.git'
+]0;~/Desktop/jotarepos/inoutrabMU00151931X:inoutrab jrab0004$ git push -u origin masterremote add origin https://github.com/rabsjp/inoutpaper.git[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Crm origin[K
+]0;~/Desktop/jotarepos/inoutrabMU00151931X:inoutrab jrab0004$ git remote rm originpush -u origin masterremote add origin https://github.com/rabsjp/inoutpaper.git
+]0;~/Desktop/jotarepos/inoutrabMU00151931X:inoutrab jrab0004$ git remote add origin https://github.com/rabsjp/inoutpaper.git[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Crm origin[Kpush -u origin master
+error: src refspec master does not match any.
+error: failed to push some refs to 'https://github.com/rabsjp/inoutpaper.git'
+]0;~/Desktop/jotarepos/inoutrabMU00151931X:inoutrab jrab0004$ git commit -m "initial commit"
+On branch master
+
+Initial commit
+
+Untracked files:
+	[31m.Rhistory[m
+	[31m.Rproj.user/[m
+	[31mcustom.css[m
+	[31mexample.png[m
+	[31mfmtsimu.R[m
+	[31minoutarea.mov[m
+	[31minoutppt.Rmd[m
+	[31minoutppt.html[m
+	[31minoutrab.Rproj[m
+	[31mjarabe.R[m
+	[31mmedianspell.png[m
+	[31moutline.Rmd[m
+	[31moutline.nb.html[m
+	[31mpout.png[m
+	[31mrun_fmtsimu.R[m
+	[31msurv_weibull.png[m
+	[31mtableswitch.png[m
+
+nothing added to commit but untracked files present
+]0;~/Desktop/jotarepos/inoutrabMU00151931X:inoutrab jrab0004$ git add . 
