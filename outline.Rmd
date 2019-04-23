@@ -41,11 +41,12 @@ The authors estimate using NLS and get that $\lambda=0.13$ and $\gamma=0.42$
 ```{r}
 source("jarabe.R")
 
-pay.out<-95
-in.meanpay<-100
-n<-240
+pay.out<-135
+in.meanpay<-150
+thres<-pay.out-in.meanpay
+n<-200
 rho<-.85
-ser<-8
+ser<-20
 p1<-seq(n)
 epsi<-rnorm(n)*ser
 xini<-0
@@ -56,7 +57,7 @@ for(i in seq(2,n)){
   }
 
 xf<-fmt.o.forecast(xse,.13,rho,.42,2)
-plot(xse+in.meanpay, type="l",lwd=2,ylim=c(0,150))
+plot(xse+in.meanpay, type="l",lwd=2,ylim=c(0,300))
 lines(c(NA,NA,NA,NA,xf+in.meanpay),col="red",lty=2)
 abline(h=pay.out)
 
@@ -77,12 +78,12 @@ for(t in seq(4,(length(xse)-1))){
       {beliefs[t]<- xse[t]}
     xf_u<-fmt.u.forecast(beliefs[1:t],state.in[1:t],.13,rho,.42,2)
     fmt.beliefs[t]<-xf_u
-    state.in[t+1]<-fmt.decision(xf_u, -5)
+    state.in[t+1]<-fmt.decision(xf_u, thres)
 }
 
-count.out<-sum(state.in==0)
-
-plot(fmt.beliefs+in.meanpay, type="l",lwd=2,ylim=c(0,150))
+count.out<-sum(state.in==0)/n
+count.out
+plot(fmt.beliefs+in.meanpay, type="l",lwd=2,ylim=c(0,300))
 lines(xse+in.meanpay, col="red")
 abline(h=pay.out)
 

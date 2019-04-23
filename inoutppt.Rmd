@@ -43,13 +43,11 @@ output:
 
 - bond yields a payout $c$ 
 
-## design - public equity
-
-<center>
-<video id="sampleMovie1" src="inoutarea.mov" loop="true" autoplay="true" controls></video>
-</center>
-
 ## design - private equity
+
+[sample](https://www.youtube.com/watch?v=pynKYBGEhI0)
+
+## design - public equity
 
 - $x$ is still displayed when OUT
 
@@ -104,9 +102,7 @@ $$
 
 - rely on forecasting rules
 
-- swithcing in/out is a form of stop-loss orders. 
-
-- this is proven to be suboptimal. 
+- switching in/out is a form of stop-loss orders. 
 
 - build porftfolios with mixed shares. 
 

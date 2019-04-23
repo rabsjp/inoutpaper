@@ -62,3 +62,76 @@ Untracked files:
 
 nothing added to commit but untracked files present
 ]0;~/Desktop/jotarepos/inoutrabMU00151931X:inoutrab jrab0004$ git add . 
+]0;~/Desktop/jotarepos/inoutrabMU00151931X:inoutrab jrab0004$ git add . commit -m "initial commit"
+[master (root-commit) a114b98] initial commit
+ 60 files changed, 2283 insertions(+)
+ create mode 100644 .Rhistory
+ create mode 100644 .Rproj.user/2895CCF0/build_options
+ create mode 100644 .Rproj.user/2895CCF0/console06/4A632BCA
+ create mode 100644 .Rproj.user/2895CCF0/console06/4A632BCA.env
+ create mode 100644 .Rproj.user/2895CCF0/console06/INDEX001
+ create mode 100644 .Rproj.user/2895CCF0/pcs/files-pane.pper
+ create mode 100644 .Rproj.user/2895CCF0/pcs/source-pane.pper
+ create mode 100644 .Rproj.user/2895CCF0/pcs/windowlayoutstate.pper
+ create mode 100644 .Rproj.user/2895CCF0/pcs/workbench-pane.pper
+ create mode 100644 .Rproj.user/2895CCF0/rmd-outputs
+ create mode 100644 .Rproj.user/2895CCF0/saved_source_markers
+ create mode 100644 .Rproj.user/2895CCF0/sources/prop/1B5062F9
+ create mode 100644 .Rproj.user/2895CCF0/sources/prop/408CB27
+ create mode 100644 .Rproj.user/2895CCF0/sources/prop/510FB1
+ create mode 100644 .Rproj.user/2895CCF0/sources/prop/98D51A8C
+ create mode 100644 .Rproj.user/2895CCF0/sources/prop/B020B932
+ create mode 100644 .Rproj.user/2895CCF0/sources/prop/D6F85BF2
+ create mode 100644 .Rproj.user/2895CCF0/sources/prop/INDEX
+ create mode 100644 .Rproj.user/2895CCF0/sources/s-4815241F/76F5E32C-contents
+ create mode 100644 .Rproj.user/2895CCF0/sources/s-4815241F/83DFED1D-contents
+ create mode 100644 .Rproj.user/2895CCF0/sources/s-4815241F/9A982CCB-contents
+ create mode 100644 .Rproj.user/2895CCF0/sources/s-4815241F/C3A99EF6-contents
+ create mode 100644 .Rproj.user/2895CCF0/sources/s-4815241F/lock_file
+ create mode 100644 .Rproj.user/shared/notebooks/83930F9-inoutppt/1/2895CCF0221CED84/chunks.json
+ create mode 100644 .Rproj.user/shared/notebooks/83930F9-inoutppt/1/s/chunks.json
+ create mode 100644 .Rproj.user/shared/notebooks/8499BC09-outline/1/2895CCF026B6EBDB/chunks.json
+ create mode 100644 .Rproj.user/shared/notebooks/8499BC09-outline/1/2895CCF04AAEFFC6/chunks.json
+ create mode 100644 .Rproj.user/shared/notebooks/8499BC09-outline/1/2895CCF08AB4C542/chunks.json
+ create mode 100644 .Rproj.user/shared/notebooks/8499BC09-outline/1/2895CCF0CBD9BAA2/chunks.json
+ create mode 100644 .Rproj.user/shared/notebooks/8499BC09-outline/1/2895CCF0D12F88FD/chunks.json
+ create mode 100644 .Rproj.user/shared/notebooks/8499BC09-outline/1/s/c4xr05sqkks27/000026.csv
+ create mode 100644 .Rproj.user/shared/notebooks/8499BC09-outline/1/s/c4xr05sqkks27/000028.csv
+ create mode 100644 .Rproj.user/shared/notebooks/8499BC09-outline/1/s/c4xr05sqkks27/00002a.csv
+ create mode 100644 .Rproj.user/shared/notebooks/8499BC09-outline/1/s/c4xr05sqkks27/00002b.metadata
+ create mode 100644 .Rproj.user/shared/notebooks/8499BC09-outline/1/s/c4xr05sqkks27/00002b.png
+ create mode 100644 .Rproj.user/shared/notebooks/8499BC09-outline/1/s/c4xr05sqkks27/00002b.snapshot
+ create mode 100644 .Rproj.user/shared/notebooks/8499BC09-outline/1/s/c4xr05sqkks27/00002c.csv
+ create mode 100644 .Rproj.user/shared/notebooks/8499BC09-outline/1/s/c4xr05sqkks27/00002e.csv
+ create mode 100644 .Rproj.user/shared/notebooks/8499BC09-outline/1/s/c4xr05sqkks27/000030.csv
+ create mode 100644 .Rproj.user/shared/notebooks/8499BC09-outline/1/s/c4xr05sqkks27/000031.metadata
+ create mode 100644 .Rproj.user/shared/notebooks/8499BC09-outline/1/s/c4xr05sqkks27/000031.png
+ create mode 100644 .Rproj.user/shared/notebooks/8499BC09-outline/1/s/c4xr05sqkks27/000031.snapshot
+ create mode 100644 .Rproj.user/shared/notebooks/8499BC09-outline/1/s/chunks.json
+ create mode 100644 .Rproj.user/shared/notebooks/patch-chunk-names
+ create mode 100644 .Rproj.user/shared/notebooks/paths
+ create mode 100644 custom.css
+ create mode 100644 example.png
+ create mode 100644 fmtsimu.R
+ create mode 100644 inoutarea.mov
+ create mode 100644 inoutppt.Rmd
+ create mode 100644 inoutppt.html
+ create mode 100644 inoutrab.Rproj
+ create mode 100644 jarabe.R
+ create mode 100644 medianspell.png
+ create mode 100644 outline.Rmd
+ create mode 100644 outline.nb.html
+ create mode 100644 pout.png
+ create mode 100644 run_fmtsimu.R
+ create mode 100644 surv_weibull.png
+ create mode 100644 tableswitch.png
+]0;~/Desktop/jotarepos/inoutrabMU00151931X:inoutrab jrab0004$ git commit -m "initial commit"add . [K[K[K[K[K[K[Kpush origin master
+Counting objects: 74, done.
+Delta compression using up to 8 threads.
+Compressing objects:   1% (1/60)   Compressing objects:   3% (2/60)   Compressing objects:   5% (3/60)   Compressing objects:   6% (4/60)   Compressing objects:   8% (5/60)   Compressing objects:  10% (6/60)   Compressing objects:  11% (7/60)   Compressing objects:  13% (8/60)   Compressing objects:  15% (9/60)   Compressing objects:  16% (10/60)   Compressing objects:  18% (11/60)   Compressing objects:  20% (12/60)   Compressing objects:  21% (13/60)   Compressing objects:  23% (14/60)   Compressing objects:  25% (15/60)   Compressing objects:  26% (16/60)   Compressing objects:  28% (17/60)   Compressing objects:  30% (18/60)   Compressing objects:  31% (19/60)   Compressing objects:  33% (20/60)   Compressing objects:  35% (21/60)   Compressing objects:  36% (22/60)   Compressing objects:  38% (23/60)   Compressing objects:  40% (24/60)   Compressing objects:  41% (25/60)   Compressing objects:  43% (26/60)   Compressing objects:  45% (27/60)   Compressing objects:  46% (28/60)   Compressing objects:  48% (29/60)   Compressing objects:  50% (30/60)   Compressing objects:  51% (31/60)   Compressing objects:  53% (32/60)   Compressing objects:  55% (33/60)   Compressing objects:  56% (34/60)   Compressing objects:  58% (35/60)   Compressing objects:  60% (36/60)   Compressing objects:  61% (37/60)   Compressing objects:  63% (38/60)   Compressing objects:  65% (39/60)   Compressing objects:  66% (40/60)   Compressing objects:  68% (41/60)   Compressing objects:  70% (42/60)   Compressing objects:  71% (43/60)   Compressing objects:  73% (44/60)   Compressing objects:  75% (45/60)   Compressing objects:  76% (46/60)   Compressing objects:  78% (47/60)   Compressing objects:  80% (48/60)   Compressing objects:  81% (49/60)   Compressing objects:  83% (50/60)   Compressing objects:  85% (51/60)   Compressing objects:  86% (52/60)   Compressing objects:  88% (53/60)   Compressing objects:  90% (54/60)   Compressing objects:  91% (55/60)   Compressing objects:  93% (56/60)   Compressing objects:  95% (57/60)   Compressing objects:  96% (58/60)   Compressing objects:  98% (59/60)   Compressing objects: 100% (60/60)   Compressing objects: 100% (60/60), done.
+Writing objects:   1% (1/74)   Writing objects:   2% (2/74)   Writing objects:   4% (3/74)   Writing objects:   5% (4/74)   Writing objects:   6% (5/74)   Writing objects:   8% (6/74)   Writing objects:   9% (7/74)   Writing objects:  10% (8/74)   Writing objects:  12% (9/74)   Writing objects:  13% (10/74)   Writing objects:  14% (11/74)   Writing objects:  16% (12/74)   Writing objects:  17% (13/74)   Writing objects:  18% (14/74)   Writing objects:  20% (15/74)   Writing objects:  21% (16/74)   Writing objects:  22% (17/74)   Writing objects:  24% (18/74)   Writing objects:  25% (19/74)   Writing objects:  27% (20/74)   Writing objects:  28% (21/74)   Writing objects:  29% (22/74)   Writing objects:  31% (23/74)   Writing objects:  32% (24/74)   Writing objects:  33% (25/74)   Writing objects:  35% (26/74)   Writing objects:  36% (27/74)   Writing objects:  37% (28/74)   Writing objects:  39% (29/74)   Writing objects:  40% (30/74)   Writing objects:  41% (31/74)   Writing objects:  43% (32/74)   Writing objects:  44% (33/74)   Writing objects:  45% (34/74)   Writing objects:  47% (35/74)   Writing objects:  48% (36/74)   Writing objects:  50% (37/74)   Writing objects:  51% (38/74)   Writing objects:  52% (39/74)   Writing objects:  54% (40/74)   Writing objects:  55% (41/74)   Writing objects:  58% (43/74)   Writing objects:  59% (44/74)   Writing objects:  60% (45/74)   Writing objects:  62% (46/74)   Writing objects:  63% (47/74)   Writing objects:  64% (48/74)   Writing objects:  66% (49/74)   Writing objects:  67% (50/74)   Writing objects:  68% (51/74)   Writing objects:  70% (52/74)   Writing objects:  71% (53/74)   Writing objects:  72% (54/74)   Writing objects:  74% (55/74)   Writing objects:  75% (56/74)   Writing objects:  77% (57/74)   Writing objects:  78% (58/74)   Writing objects:  79% (59/74)   Writing objects:  81% (60/74)   Writing objects:  82% (61/74)   Writing objects:  83% (62/74)   Writing objects:  85% (63/74)   Writing objects:  86% (64/74)   Writing objects:  87% (65/74)   Writing objects:  87% (65/74), 1.07 MiB | 472.00 KiB/s   Writing objects:  87% (65/74), 3.75 MiB | 620.00 KiB/s   Writing objects:  87% (65/74), 4.50 MiB | 659.00 KiB/s   Writing objects:  87% (65/74), 4.50 MiB | 212.00 KiB/s   Writing objects:  87% (65/74), 4.63 MiB | 212.00 KiB/s   Writing objects:  87% (65/74), 4.94 MiB | 216.00 KiB/s   Writing objects:  87% (65/74), 5.56 MiB | 206.00 KiB/s   Writing objects:  87% (65/74), 6.06 MiB | 131.00 KiB/s   Writing objects:  87% (65/74), 7.38 MiB | 152.00 KiB/s   Writing objects:  87% (65/74), 8.88 MiB | 853.00 KiB/s   Writing objects:  87% (65/74), 8.94 MiB | 825.00 KiB/s   Writing objects:  87% (65/74), 8.94 MiB | 453.00 KiB/s   Writing objects:  89% (66/74), 8.94 MiB | 453.00 KiB/s   Writing objects:  90% (67/74), 8.94 MiB | 453.00 KiB/s   Writing objects:  90% (67/74), 9.59 MiB | 479.00 KiB/s   Writing objects:  90% (67/74), 11.71 MiB | 628.00 KiB/s   Writing objects:  90% (67/74), 12.52 MiB | 653.00 KiB/s   Writing objects:  90% (67/74), 12.52 MiB | 497.00 KiB/s   Writing objects:  90% (67/74), 13.21 MiB | 484.00 KiB/s   Writing objects:  90% (67/74), 14.02 MiB | 490.00 KiB/s   Writing objects:  90% (67/74), 15.52 MiB | 990.00 KiB/s   Writing objects:  90% (67/74), 17.21 MiB | 1000.00 KiB/s   Writing objects:  90% (67/74), 18.84 MiB | 1008.00 KiB/s   Writing objects:  90% (67/74), 19.90 MiB | 1.25 MiB/s   Writing objects:  91% (68/74), 19.90 MiB | 1.04 MiB/s   Writing objects:  93% (69/74), 19.90 MiB | 1.04 MiB/s   Writing objects:  94% (70/74), 19.90 MiB | 1.04 MiB/s   Writing objects:  95% (71/74), 19.90 MiB | 1.04 MiB/s   Writing objects:  97% (72/74), 19.90 MiB | 1.04 MiB/s   Writing objects:  98% (73/74), 19.90 MiB | 1.04 MiB/s   Writing objects: 100% (74/74), 19.90 MiB | 1.04 MiB/s   Writing objects: 100% (74/74), 20.63 MiB | 476.00 KiB/s, done.
+Total 74 (delta 7), reused 0 (delta 0)
+remote: Resolving deltas:   0% (0/7)   [Kremote: Resolving deltas:  14% (1/7)   [Kremote: Resolving deltas:  28% (2/7)   [Kremote: Resolving deltas:  42% (3/7)   [Kremote: Resolving deltas: 100% (7/7)   [Kremote: Resolving deltas: 100% (7/7), done.[K
+To https://github.com/rabsjp/inoutpaper.git
+ * [new branch]      master -> master
+[KMU00151931X:inoutrab jrab0004$ git add . 
