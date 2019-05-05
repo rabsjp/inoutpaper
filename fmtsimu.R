@@ -1,5 +1,5 @@
 source("jarabe.R")
-n<-160
+n<- 160
 rho<-.85
 ser<-12
 rf<- -9

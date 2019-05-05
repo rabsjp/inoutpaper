@@ -1,3 +1,7 @@
+## Computes Forecast accoring to FMT rules (including RE)
+## The code works with 3 lags, 
+
+
 ## Compute LMT forecast for O treatment. 
 fmt.o.forecast<-function(carne,lambda,rho,gamma,pasado){
   b = lambda
@@ -30,13 +34,11 @@ fmt.u.forecast<-function(kale,state,lambda,rho,gamma,pasado){
   return(g*term1+ (1-b)*term2)
 }
 
-## Robot FMT that makes a decision to opt IN or OUT
+## Opt for IN or OUT
 fmt.decision<-function(belief,pay.out){
-  
   if(belief >= pay.out){
     a<-1}
   else{a<-0}
-  
   return(a)
 }
 
