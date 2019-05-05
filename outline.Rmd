@@ -89,3 +89,18 @@ abline(h=pay.out)
 
 
 ```
+
+
+
+sum(totalper.out.u)/num.sim
+[1] 0.47225
+> sum(totalper.out.o)/num.sim
+[1] 0.3794336
+
+
+rational E
+> sum(totalper.out.u)/num.sim
+[1] 0.4662324
+> sum(totalper.out.o)/num.sim
+[1] 0.3686172
+

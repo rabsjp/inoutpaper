@@ -135,3 +135,38 @@ remote: Resolving deltas:   0% (0/7)   [Kremote: Resolving deltas:  14% (1/7) 
 To https://github.com/rabsjp/inoutpaper.git
  * [new branch]      master -> master
 [KMU00151931X:inoutrab jrab0004$ git add . 
+]0;~/Desktop/jotarepos/inoutrabMU00151931X:inoutrab jrab0004$ git commit -m "april29:[K"
+[master 48ceb7c] april29
+ 38 files changed, 884 insertions(+), 1027 deletions(-)
+ rewrite .Rproj.user/2895CCF0/console06/INDEX001 (86%)
+ delete mode 100644 .Rproj.user/2895CCF0/sources/s-4815241F/76F5E32C-contents
+ delete mode 100644 .Rproj.user/2895CCF0/sources/s-4815241F/83DFED1D-contents
+ delete mode 100644 .Rproj.user/2895CCF0/sources/s-4815241F/9A982CCB-contents
+ delete mode 100644 .Rproj.user/2895CCF0/sources/s-4815241F/C3A99EF6-contents
+ delete mode 100644 .Rproj.user/2895CCF0/sources/s-4815241F/lock_file
+ delete mode 100644 .Rproj.user/shared/notebooks/8499BC09-outline/1/s/c4xr05sqkks27/000026.csv
+ delete mode 100644 .Rproj.user/shared/notebooks/8499BC09-outline/1/s/c4xr05sqkks27/000028.csv
+ delete mode 100644 .Rproj.user/shared/notebooks/8499BC09-outline/1/s/c4xr05sqkks27/00002a.csv
+ delete mode 100644 .Rproj.user/shared/notebooks/8499BC09-outline/1/s/c4xr05sqkks27/00002b.metadata
+ delete mode 100644 .Rproj.user/shared/notebooks/8499BC09-outline/1/s/c4xr05sqkks27/00002b.png
+ delete mode 100644 .Rproj.user/shared/notebooks/8499BC09-outline/1/s/c4xr05sqkks27/00002b.snapshot
+ delete mode 100644 .Rproj.user/shared/notebooks/8499BC09-outline/1/s/c4xr05sqkks27/00002c.csv
+ delete mode 100644 .Rproj.user/shared/notebooks/8499BC09-outline/1/s/c4xr05sqkks27/00002e.csv
+ delete mode 100644 .Rproj.user/shared/notebooks/8499BC09-outline/1/s/c4xr05sqkks27/000030.csv
+ delete mode 100644 .Rproj.user/shared/notebooks/8499BC09-outline/1/s/c4xr05sqkks27/000031.metadata
+ delete mode 100644 .Rproj.user/shared/notebooks/8499BC09-outline/1/s/c4xr05sqkks27/000031.png
+ delete mode 100644 .Rproj.user/shared/notebooks/8499BC09-outline/1/s/c4xr05sqkks27/000031.snapshot
+ create mode 100644 .gitignore
+ create mode 100644 inoutarea.pdf
+ create mode 100644 inoutpc.m4v
+ rewrite inoutppt.html (90%)
+]0;~/Desktop/jotarepos/inoutrabMU00151931X:inoutrab jrab0004$ gis[Kt push origin master
+Counting objects: 37, done.
+Delta compression using up to 8 threads.
+Compressing objects:   3% (1/29)   Compressing objects:   6% (2/29)   Compressing objects:  10% (3/29)   Compressing objects:  13% (4/29)   Compressing objects:  17% (5/29)   Compressing objects:  20% (6/29)   Compressing objects:  24% (7/29)   Compressing objects:  27% (8/29)   Compressing objects:  31% (9/29)   Compressing objects:  34% (10/29)   Compressing objects:  37% (11/29)   Compressing objects:  41% (12/29)   Compressing objects:  44% (13/29)   Compressing objects:  48% (14/29)   Compressing objects:  51% (15/29)   Compressing objects:  55% (16/29)   Compressing objects:  58% (17/29)   Compressing objects:  62% (18/29)   Compressing objects:  65% (19/29)   Compressing objects:  68% (20/29)   Compressing objects:  72% (21/29)   Compressing objects:  75% (22/29)   Compressing objects:  79% (23/29)   Compressing objects:  82% (24/29)   Compressing objects:  86% (25/29)   Compressing objects:  89% (26/29)   Compressing objects:  93% (27/29)   Compressing objects:  96% (28/29)   Compressing objects: 100% (29/29)   Compressing objects: 100% (29/29), done.
+Writing objects:   2% (1/37)   Writing objects:   5% (2/37)   Writing objects:   8% (3/37)   Writing objects:  10% (4/37)   Writing objects:  13% (5/37)   Writing objects:  16% (6/37)   Writing objects:  18% (7/37)   Writing objects:  21% (8/37)   Writing objects:  24% (9/37)   Writing objects:  27% (10/37)   Writing objects:  29% (11/37)   Writing objects:  32% (12/37)   Writing objects:  35% (13/37)   Writing objects:  37% (14/37)   Writing objects:  40% (15/37)   Writing objects:  43% (16/37)   Writing objects:  45% (17/37)   Writing objects:  48% (18/37)   Writing objects:  51% (19/37)   Writing objects:  54% (20/37)   Writing objects:  56% (21/37)   Writing objects:  59% (22/37)   Writing objects:  62% (23/37)   Writing objects:  64% (24/37)   Writing objects:  67% (25/37)   Writing objects:  70% (26/37)   Writing objects:  72% (27/37)   Writing objects:  75% (28/37)   Writing objects:  78% (29/37)   Writing objects:  81% (30/37)   Writing objects:  83% (31/37)   Writing objects:  83% (31/37), 1.07 MiB | 220.00 KiB/s   Writing objects:  83% (31/37), 1.19 MiB | 192.00 KiB/s   Writing objects:  83% (31/37), 1.25 MiB | 185.00 KiB/s   Writing objects:  83% (31/37), 1.37 MiB | 183.00 KiB/s   Writing objects:  83% (31/37), 1.50 MiB | 172.00 KiB/s   Writing objects:  83% (31/37), 1.62 MiB | 171.00 KiB/s   Writing objects:  83% (31/37), 1.81 MiB | 116.00 KiB/s   Writing objects:  83% (31/37), 1.94 MiB | 123.00 KiB/s   Writing objects:  83% (31/37), 2.06 MiB | 133.00 KiB/s   Writing objects:  83% (31/37), 2.19 MiB | 141.00 KiB/s   Writing objects:  83% (31/37), 2.50 MiB | 156.00 KiB/s   Writing objects:  83% (31/37), 2.69 MiB | 179.00 KiB/s   Writing objects:  83% (31/37), 3.31 MiB | 254.00 KiB/s   Writing objects:  83% (31/37), 4.13 MiB | 384.00 KiB/s   Writing objects:  83% (31/37), 4.69 MiB | 473.00 KiB/s   Writing objects:  83% (31/37), 6.00 MiB | 705.00 KiB/s   Writing objects:  83% (31/37), 7.81 MiB | 1.01 MiB/s   Writing objects:  83% (31/37), 9.38 MiB | 1.28 MiB/s   Writing objects:  86% (32/37), 9.38 MiB | 1.28 MiB/s   Writing objects:  89% (33/37), 9.38 MiB | 1.28 MiB/s   Writing objects:  91% (34/37), 9.38 MiB | 1.28 MiB/s   Writing objects:  94% (35/37), 9.38 MiB | 1.28 MiB/s   Writing objects:  97% (36/37), 9.38 MiB | 1.28 MiB/s   Writing objects: 100% (37/37), 9.38 MiB | 1.28 MiB/s   Writing objects: 100% (37/37), 10.15 MiB | 462.00 KiB/s, done.
+Total 37 (delta 13), reused 0 (delta 0)
+remote: Resolving deltas:   0% (0/13)   [Kremote: Resolving deltas:   7% (1/13)   [Kremote: Resolving deltas:  15% (2/13)   [Kremote: Resolving deltas:  23% (3/13)   [Kremote: Resolving deltas:  30% (4/13)   [Kremote: Resolving deltas:  38% (5/13)   [Kremote: Resolving deltas:  46% (6/13)   [Kremote: Resolving deltas:  53% (7/13)   [Kremote: Resolving deltas:  61% (8/13)   [Kremote: Resolving deltas:  69% (9/13)   [Kremote: Resolving deltas:  76% (10/13)   [Kremote: Resolving deltas:  84% (11/13)   [Kremote: Resolving deltas:  92% (12/13)   [Kremote: Resolving deltas: 100% (13/13)   [Kremote: Resolving deltas: 100% (13/13), completed with 13 local objects.[K
+To https://github.com/rabsjp/inoutpaper.git
+   a114b98..48ceb7c  master -> master
+[KMU00151931X:inoutrab jrab0004$ redis-server /usr/local/etc/redis.confcli ping[Kbrew install redis[4Predis-cli pingotree runprodserver 8080[11Pesetdbpip install -r requirements_base.txt[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[23Potree resetdbunprodserver 8080[10Predis-cli pingbrew install redis[4Predis-cli pingserver /usr/local/etc/redis.conf[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Kgit add . 
