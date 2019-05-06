@@ -46,7 +46,7 @@ sum(df[df$tre==13,6:15])/sum(df$tre==13)
 
 df$ids<-df$session*100+df$round_number
 
-save(df,file="inoutata.Rda")
+save(df,file="inoutdata.Rda")
 # Please move this dataset to /data!
 
 dftick<-df[,c("ids","tick","x_t")]

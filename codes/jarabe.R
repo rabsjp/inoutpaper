@@ -1,18 +1,16 @@
-## Computes Forecast accoring to FMT rules (including RE)
+## Computes Forecast accoring to LMT rules (including RE)
 ## The code works with 3 lags, 
 
-
 ## Compute LMT forecast for O treatment. 
-fmt.o.forecast<-function(carne,lambda,rho,gamma,pasado){
+fmt.o.forecast<-function(x,lambda,rho,gamma,lags){
   b = lambda
   g = gamma
   r = rho
-  n = length(carne)
-  carnek0 = carne[4:(n-1)]
-  carnek1 = carne[3:(n-2)]
-  carnek2 = carne[2:(n-3)]
-  carnei = carne[1:(n-4)]
-  
+  n = length(x)
+  carnek0 = x[4:(n-1)]
+  carnek1 = x[3:(n-2)]
+  carnek2 = x[2:(n-3)]
+  carnei = x[1:(n-4)]
   term1<-(carnek0-r*carnek1)+(carnek1-r*carnek2)*b+(carnek2-r*carnei)*b^2
   term2<- r*carnek0+carnek1*r^2*b+carnek2*r^3*b^2
   return(g*term1 + (1-b)*term2)
