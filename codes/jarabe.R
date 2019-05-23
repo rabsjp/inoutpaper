@@ -33,8 +33,15 @@ fmt.u.forecast<-function(kale,state,lambda,rho,gamma,pasado){
 }
 
 ## Opt for IN or OUT
-fmt.decision<-function(belief,pay.out){
-  if(belief >= pay.out){
+fmt.decision<-function(belief,pay.out,state){
+  risky_u<- (100+belief)
+  
+  if (state>0){
+    safe_u<- (96+pay.out)
+  }
+  else{safe_u<-(105)}
+  
+  if(risky_u >= safe_u){
     a<-1}
   else{a<-0}
   return(a)

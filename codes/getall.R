@@ -29,12 +29,12 @@ for(i in seq(along=files)){
 
 ## Deleting crashed and practice rounds
 df<-df[!(df$round_number==15 & df$session_id=="vuqt36zr"), ]
-df<-df[!(df$round_number<3 & df$session_id=="vuqt36zr"), ]
 df<-df[!(df$round_number==16 & df$session_id=="vuqt36zr"), ]
 
 df<-df[!(df$round_number==9 & df$session_id=="e7qed11a"), ]
-df<-df[!(df$round_number<3 & df$session_id=="e7qed11a"), ]
 df<-df[!(df$round_number==22 & df$session_id=="e7qed11a"), ]
+df<-df[!(df$round_number<3),]
+
 
 df$re<-.85*(df$x_t-100)+100
 df$inre<-1
