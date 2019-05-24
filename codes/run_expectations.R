@@ -47,7 +47,8 @@ for(s in colu.u){
     {beliefs[t]<- xse[t]}
     xf_u<-fmt.u.forecast(beliefs[1:t],din_all[1:t,s],0.21,rho,0.41,2)
     fmt.beliefs[t]<-xf_u
-    din_all[t+1,s]<-fmt.decision(xf_u,rf,1)
+    aa<-din_all[t,s]
+    din_all[t+1,s]<-fmt.decision(xf_u,rf,aa)
 }
 }
 din_all$tick<-c(1:160)
